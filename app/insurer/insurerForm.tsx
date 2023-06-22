@@ -21,7 +21,7 @@ import {
   FormMessage,
 } from "@/components/react-hook-form/form"
 
-import { createInsureAction } from "../api/insurer/route"
+import  {createInsureAction} from "../api/insurer/route"
 import "react-toastify/dist/ReactToastify.css"
 
 const insureFormSchema = z.object({
