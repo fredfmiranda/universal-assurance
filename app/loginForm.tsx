@@ -57,7 +57,7 @@ function LoginForm() {
     //JSON.stringify(data, null, 2)
     //form.reset();
     //router.push('/user')
-    if (data.login == "admin" && data.senha == "admin") {
+    if (data.login == "admin" && data.senha == "Adm@pwd2206#") {
       router.push("/main")
     } else {
       toast.error("Usuário ou senha inválidos!")
